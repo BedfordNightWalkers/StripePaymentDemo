@@ -1,0 +1,14 @@
+@model StripePaymentDemo.Web.Models.PaymentResultViewModel
+
+@{
+    ViewData["Title"] = "Checkout cancelled";
+}
+<h1>Checkout cancelled</h1>
+
+<p>@Model.Message</p>
+
+<a asp-controller="Home"
+   asp-action="Index"
+   class="btn btn-secondary">
+    Return to home page
+</a>
